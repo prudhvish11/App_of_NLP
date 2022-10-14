@@ -38,3 +38,4 @@ zipp
 click
 nltk
 scikit-learn
+gtts
