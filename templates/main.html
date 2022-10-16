@@ -1,0 +1,32 @@
+<html>
+    <title>APPLICATION OF NLP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <body>
+        <h1>APPLICATIONS OF NLP</h1>
+        
+        <p></p>
+        <hr>
+        <form action="/t2s",method='post'>
+            <button value="t2s" type="t2s" class="btn">Text to speech</button>
+        </form>
+
+        <form action="/s2t",method='post'>
+            <button value="s2t" type="s2t" class="btn">Speech to text</button>
+        </form>
+        
+        <form action="/spell",method='post'>
+            <button value="spell" type="spell" class="btn">Spell Corrector</button>
+        </form>
+
+        <form action="/spamm",method='post'>
+            <button value="spam" type="spam" class="btn">Spam Classifier</button>
+        </form>
+
+        <form action="/senti",method='post'>
+            <button value="senti" type="senti" class="btn">Sentiment Analyzer</button>
+        </form>
+
+       
+
+    </body>
+</html>

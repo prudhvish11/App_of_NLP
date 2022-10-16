@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='s.css') }}">
+    </head>
+    <body>
+        <div class="login">
+            <h1>SENTIMENTAL ANALYSIS</h1>
+            <form action="{{url_for('an')}}"  method="POST">
+            <textarea  name="message" rows="6" cols="50" required="required"></textarea>
+		    <br> </br>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+            </form>
+            <h1>{{answer}}</h1>
+        </div>
+    </body>
+</html>
