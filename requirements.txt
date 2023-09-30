@@ -21,6 +21,7 @@ more-itertools
 numpy
 packaging
 pluggy
+pandas
 py
 pycparser
 pyOpenSSL
